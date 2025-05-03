@@ -1,8 +1,12 @@
 # Ignore Python bytecode files
 *.pyc
 *.pyo
-*.pyd
-# Ignore the __pycache__ directories
 __pycache__/
+
 # Ignore swap files created by text editors
 *.swp
+*.swo
+
+# Ignore other editor-specific files
+*.bak
+*.tmp
